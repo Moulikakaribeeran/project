@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Project</title>
+   </head>
+   <style>
+     body{
+       margin: 0px;
+       padding: 0px;
+       background: url("run2.jpg");
+       background-repeat: no-repeat;
+       background-size: 100%;
+       }
+      .left{
+        
+        left: 30px;
+        top: 20px;
+        position: absolute;
+        color: whitesmoke;
+
+      }
+      .left img{
+        width: 40px;
+        filter: invert(100%);
+      }
+      .left div{
+        text-align: center;
+      }
+      .middle{
+        width: 60%;
+        margin: 15px auto;
+        
+
+      }
+      .right{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        
+      }
+      .center{
+        display: inline-block;
+
+      }
+      .center li{
+        display: inline-block;
+
+      }
+      .center li a{
+        color: whitesmoke;
+        padding: 20px 20px;
+        font-size: 20px;
+        
+      }
+      .center li a:hover,.center li a.active{
+        text-decoration: underline;
+        color: crimson;
+        border: 2px solid gray;
+        
+        border-radius: 4px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      header{
+        background-color: black;
+        height: 80px;
+        width: 100%;
+      }
+      .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid gray;
+        
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        
+      }
+      .btn:hover{
+        background-color: grey;
+      }
+      .main{
+        border: 2px solid black;
+        margin: 70px;
+        padding: 100px;
+        width: 33%;
+        border-radius: 28px;
+        height: auto;
+      }
+      .form1 input{
+        width: 350px;
+        padding: 5px;
+        border: 2px solid black;
+        margin: 10px;
+        font-size: 15px;
+      }
+      .btnn{
+        margin: 0px 9px;
+        background-color: burlywood;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid gray;
+        
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        width: 90px;
+
+      }
+      .btnn:hover{
+        background-color: grey;
+        
+      }
+      b{
+        font-size: 20px;
+        
+      }
+      h1{
+        color: darkblue;
+        
+      }
+      h2{
+        background-color: black;
+        color: white;
+        width: 180px;
+      }
+      
+   </style>
+   <body>
+     <header class="header">
+       <div class="left">
+         <img src="iconn.png" alt="play">
+         <div>CHAMP CLUB</div>
+
+       </div>
+       <div class="middle">
+         <ul class="center">
+           <li><a href="#" class="active">HOME</a></li>
+           <li><a href="http://127.0.0.1:5500/about.html">ABOUT US</a></li>
+           <li><a href="http://127.0.0.1:5500/achievement.html">ACHIEVEMENTS</a></li>
+           <li><a href="http://127.0.0.1:5500/contact.html">CONTACT US</a></li>
+
+
+         </ul>
+
+       </div>
+       <div class="right">
+         <button class="btn">JOIN WITH US</button>
+
+       </div>
+      </header>
+      <div class="main">
+        <h1><marquee behaviour="alternate">PASSION FIRST AND EVERYTHING WILL FALL INTO PLACE!!</marquee></h1>
+        <h2>JOIN WITH US</h2>
+        <form action="noaction.php">
+          <div class="form1">
+            <b>NAME:</b><br>
+            <input type="text" placeholder="Name Of The Candidate">
+
+          </div>
+          <div class="form1">
+            <b>AGE:</b><br>
+            <input type="text" placeholder="Age Of The Candidate">
+
+          </div>
+          <div class="form1">
+            <b>EMAIL ID:</b><br>
+            <input type="text" placeholder="Email Id">
+
+          </div>
+          <div class="form1">
+            <b>MOBILE NUMBER</b><br>
+            <input type="text" placeholder="Mobile Number">
+
+          </div>
+          <div class="form1">
+            <b>STATE</b><br>
+            <input type="text" placeholder="State">
+
+          </div>
+          <br>
+          <button class="btnn">Submit</button>
+        </form>
+
+      </div>
+
+
+   </body>
+</html>
